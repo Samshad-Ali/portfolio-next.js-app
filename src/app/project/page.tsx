@@ -1,9 +1,7 @@
-import React from 'react'
 import data from '../lib/data'
-import Image from 'next/image'
 import ProjectCard from '../components/ProjectCard'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='w-full h-full flex justify-center flex-col gap-4 items-center'>
         <h2 className='text-xl font-semibold border-b '>Projects</h2>
@@ -16,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

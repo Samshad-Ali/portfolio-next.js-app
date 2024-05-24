@@ -7,7 +7,7 @@ import {
   BsInstagram,
   BsArrowRightShort,
 } from "react-icons/bs";
-const page = () => {
+const Page = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
@@ -109,4 +109,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
