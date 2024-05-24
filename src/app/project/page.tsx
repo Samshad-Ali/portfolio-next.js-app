@@ -9,7 +9,7 @@ const page = () => {
         <h2 className='text-xl font-semibold border-b '>Projects</h2>
         <div className='flex flex-wrap gap-8 items-center justify-center'>
             {
-                data?.map((item)=><ProjectCard {...item} />)
+                data?.map((item)=><ProjectCard key={item.name} {...item} />)
             }
         </div>
     </div>
