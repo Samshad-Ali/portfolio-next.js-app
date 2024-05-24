@@ -16,7 +16,7 @@ const Homepage = () => {
       </div>
       <h1 className="text-3xl font-extrabold text-blue-600">Samshad Ali 👋</h1>
       <p className="text-orange-600 font-bold text-xl"> I am  <span className="text-white"> {text} </span> </p>
-      <p className="text-gray-400">I'm a motivated and enthusiastic React developer, eager to launch a career in web development. With a solid understanding of JavaScript and React, gained through personal projects and coursework, i'm passionate about creating dynamic and responsive web applications. Ready to contribute fresh ideas and innovative solutions,I am committed to continuous learning and professional growth.</p>
+      <p className="text-gray-400">I am a motivated and enthusiastic React developer, eager to launch a career in web development. With a solid understanding of JavaScript and React, gained through personal projects and coursework, i am passionate about creating dynamic and responsive web applications. Ready to contribute fresh ideas and innovative solutions, I am committed to continuous learning and professional growth.</p>
     </div>
   );
 };
